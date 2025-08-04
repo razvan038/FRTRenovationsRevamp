@@ -35,7 +35,7 @@ export default function Navbar({ locale }: Props) {
   const common = commonMap[locale] ?? commonMap.ro;
 
   const changeLocale = (targetLocale: Locale) => {
-    const segments = pathname.split('/').filter(Boolean);
+    const segments = pathname ? pathname.split('/').filter(Boolean) : [];
     const currentLocale = segments[0];
     const currentSlug = segments[1] || '';
 

@@ -15,7 +15,7 @@ const InteractiveHoverButton = React.forwardRef<
   InteractiveHoverButtonProps
 >(({ text, className, ...props }, ref) => {
   const pathname = usePathname();
-  const language = pathname.split("/")[1];
+  const language = pathname ? pathname.split("/")[1] : undefined;
 
   const defaultText = {
     ro: "Cere ofertă",
