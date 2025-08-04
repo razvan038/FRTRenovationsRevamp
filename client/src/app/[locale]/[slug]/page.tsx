@@ -67,7 +67,7 @@ interface PageProps {
 }
 
 interface ComponentProps {
-  messages: any; 
+  messages: Record<string, unknown>;
 }
 
 export default async function Page(props: PageProps) {
