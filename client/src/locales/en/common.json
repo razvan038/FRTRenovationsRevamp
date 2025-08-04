@@ -1,0 +1,33 @@
+{
+    "navbar": {
+      "logoAlt": "FRTrenovations Logo",
+      "menu": [
+        { "label": "Transformations", "slug": "transformations" },
+        { "label": "Gallery", "slug": "gallery" },
+        { "label": "Services", "slug": "services" },
+        { "label": "Contact", "slug": "contact" }
+      ]
+    },
+    "footer": {
+      "left": {
+        "logoAlt": "FRTrenovations Logo",
+        "location": "Based in Romania, Bucharest"
+      },
+      "center": {
+        "navigationTitle": "Explore",
+        "links": [
+          { "label": "Transformations", "slug": "transformations" },
+          { "label": "Gallery", "slug": "gallery" },
+          { "label": "Services", "slug": "services" },
+          { "label": "Contact", "slug": "contact" }
+        ]
+      },
+      "right": {
+        "contactTitle": "Contact Details",
+        "phone1": "+40 773 740 737",
+        "phone2": "+40 786 175 944",
+        "email": "contact@frtrenovations.com"
+      }
+    }
+  }
+  

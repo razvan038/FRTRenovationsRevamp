@@ -1,0 +1,29 @@
+{
+  "title": "Transformations",
+  "beforeAfter": [
+    {
+      "before": "/images/before_1-2.webp",
+      "after": "/images/after_1-2.webp",
+      "title": "Bathroom",
+      "description": "This bathroom was fully renovated, with a focus on a modern design in dark, elegant, and refined tones. The chosen materials create a sophisticated atmosphere, highlighting clean lines and quality finishes. The result is a contemporary space with an intimate vibe and a distinctive urban aesthetic."
+    },
+    {
+      "before": "/images/before_2-2.webp",
+      "after": "/images/after_2-2.webp",
+      "title": "Pool",
+      "description": "The pool was built from scratch, starting with excavation and continuing with the construction of the structure, installations, and waterproofing system. The final finish features outdoor porcelain tiles, chosen for their durability and elegant appearance. The entire project was executed with attention to detail, meeting high standards of quality and durability."
+    },
+    {
+      "before": "/images/before_3-2.webp",
+      "after": "/images/after_3-2.webp",
+      "title": "Bathroom",
+      "description": "This bathroom was built from the ground up in a spacious area designed for comfort and functionality. Premium materials, modern sanitary ware, and an LED lighting system were integrated to highlight the entire design. The result is an elegant and airy space with a contemporary look and high-end finishes."
+    },
+    {
+      "before": "/images/before_4-2.webp",
+      "after": "/images/after_4-2.webp",
+      "title": "Living Room",
+      "description": "The living room underwent a complete renovation, transforming a closed space into an open and harmonious one. By optimizing the layout and choosing modern finishes, the goal was to enhance brightness and volume. The result is a contemporary interior with an airy atmosphere and a clear sense of spaciousness."
+    }
+  ]
+}

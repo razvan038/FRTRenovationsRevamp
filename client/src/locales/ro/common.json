@@ -1,0 +1,33 @@
+{
+    "navbar": {
+      "logoAlt": "Logo FRTrenovations",
+      "menu": [
+        { "label": "Transformări", "slug": "transformari" },
+        { "label": "Galerie", "slug": "galerie" },
+        { "label": "Servicii", "slug": "servicii" },
+        { "label": "Contact", "slug": "contact" }
+      ]
+    },
+    "footer": {
+      "left": {
+        "logoAlt": "Logo FRTrenovations",
+        "location": "Based in România, București"
+      },
+      "center": {
+        "navigationTitle": "Explorează",
+        "links": [
+          { "label": "Transformări", "slug": "transformari" },
+          { "label": "Galerie", "slug": "galerie" },
+          { "label": "Servicii", "slug": "servicii" },
+          { "label": "Contact", "slug": "contact" }
+        ]
+      },
+      "right": {
+        "contactTitle": "Date de contact",
+        "phone1": "+40 773 740 737",
+        "phone2": "+40 786 175 944",
+        "email": "contact@frtrenovations.com"
+      }
+    }
+  }
+  

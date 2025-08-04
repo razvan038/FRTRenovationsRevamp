@@ -1,0 +1,74 @@
+{
+  "title": "Gallery",
+  "categories": [
+    {
+      "title": "Bathrooms",
+      "images": [
+        "/images/Bai/BAIE-1.WEBP",
+        "/images/Bai/BAIE-2.WEBP",
+        "/images/Bai/BAIE-3.WEBP",
+        "/images/Bai/BAIE-4.WEBP",
+        "/images/Bai/BAIE-5.WEBP",
+        "/images/Bai/BAIE-6.WEBP",
+        "/images/Bai/BAIE-7.WEBP"
+      ]
+    },
+    {
+      "title": "Pools",
+      "images": [
+        "/images/Piscine/PS-1.webp",
+        "/images/Piscine/PS-2.webp",
+        "/images/Piscine/PS-3.webp",
+        "/images/Piscine/PS-4.webp",
+        "/images/Piscine/PS-5.webp",
+        "/images/Piscine/PS-6.webp",
+        "/images/Piscine/PS-7.webp",
+        "/images/Piscine/PS-8.webp"
+      ]
+    },
+    {
+      "title": "Processes",
+      "images": [
+        "/images/Procese/PR-1.webp",
+        "/images/Procese/PR-2.webp",
+        "/images/Procese/PR-3.webp",
+        "/images/Procese/PR-4.webp",
+        "/images/Procese/PR-5.webp",
+        "/images/Procese/PR-6.webp",
+        "/images/Procese/PR-7.webp",
+        "/images/Procese/PR-8.webp",
+        "/images/Procese/PR-9.webp",
+        "/images/Procese/PR-10.webp",
+        "/images/Procese/PR-11.webp",
+        "/images/Procese/PR-12.webp",
+        "/images/Procese/PR-13.webp"
+      ]
+    },
+    {
+      "title": "Interior Renovations",
+      "images": [
+        "/images/RenovariInterioare/RI-1.webp",
+        "/images/RenovariInterioare/RI-2.webp",
+        "/images/RenovariInterioare/RI-3.webp",
+        "/images/RenovariInterioare/RI-4.webp",
+        "/images/RenovariInterioare/RI-5.webp",
+        "/images/RenovariInterioare/RI-6.webp",
+        "/images/RenovariInterioare/RI-7.webp",
+        "/images/RenovariInterioare/RI-8.webp",
+        "/images/RenovariInterioare/RI-9.webp",
+        "/images/RenovariInterioare/RI-10.webp",
+        "/images/RenovariInterioare/RI-11.webp",
+        "/images/RenovariInterioare/RI-12.webp",
+        "/images/RenovariInterioare/RI-13.webp",
+        "/images/RenovariInterioare/RI-14.webp"
+      ]
+    },
+    {
+      "title": "Commercial Spaces",
+      "images": [
+        "/images/SpatiiComerciale/SP-1.webp",
+        "/images/SpatiiComerciale/SP-2.webp"
+      ]
+    }
+  ]
+}

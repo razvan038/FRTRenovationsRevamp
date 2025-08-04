@@ -1,0 +1,132 @@
+{
+  "title": "Nuestros Servicios",
+  "toggle": [
+    {
+      "id": "servicios-propios",
+      "label": "Servicios propios",
+      "services": [
+        {
+          "title": "Aplicación de Yeso",
+          "icon": "/images/Servicii/Proprii/aplicareGlet.svg",
+          "subtitle": "Nivelación y alisado de paredes antes de pintar."
+        },
+        {
+          "title": "Instalación de Azulejos",
+          "icon": "/images/Servicii/Proprii/montajFaianta.svg",
+          "subtitle": "Colocación de azulejos en baños y cocinas."
+        },
+        {
+          "title": "Instalación de Baldosas",
+          "icon": "/images/Servicii/Proprii/montajGresie.svg",
+          "subtitle": "Pavimentación con baldosas en interiores o exteriores."
+        },
+        {
+          "title": "Instalación de Parquet",
+          "icon": "/images/Servicii/Proprii/montajParchet.svg",
+          "subtitle": "Montaje profesional de suelos de madera o laminado."
+        },
+        {
+          "title": "Instalación de Pladur",
+          "icon": "/images/Servicii/Proprii/montajRigips.svg",
+          "subtitle": "Construcción de paredes y techos con pladur."
+        },
+        {
+          "title": "Instalación de Papel Pintado",
+          "icon": "/images/Servicii/Proprii/montajTapet.svg",
+          "subtitle": "Aplicación decorativa de papel pintado en paredes."
+        },
+        {
+          "title": "Piedra Natural",
+          "icon": "/images/Servicii/Proprii/piatraNaturala.svg",
+          "subtitle": "Revestimiento con piedra para decoración o función."
+        },
+        {
+          "title": "Escaleras",
+          "icon": "/images/Servicii/Proprii/trepte.svg",
+          "subtitle": "Construcción y montaje de escaleras interiores/exteriores."
+        },
+        {
+          "title": "Vertido de Solera",
+          "icon": "/images/Servicii/Proprii/turnareSape.svg",
+          "subtitle": "Nivelación del suelo con soleras autonivelantes."
+        },
+        {
+          "title": "Pintura",
+          "icon": "/images/Servicii/Proprii/vopseluri.svg",
+          "subtitle": "Pintura interior de paredes y techos."
+        },
+        {
+          "title": "Albañilería",
+          "icon": "/images/Servicii/Proprii/zidarie.svg",
+          "subtitle": "Construcción de muros con ladrillo o bloques."
+        },
+        {
+          "title": "Enlucido",
+          "icon": "/images/Servicii/Proprii/zugraveli.svg",
+          "subtitle": "Revestimiento decorativo o protector para paredes."
+        }
+      ]
+    },
+    {
+      "id": "servicios-socios",
+      "label": "Servicios de socios",
+      "services": [
+        {
+          "title": "Sistemas de Calefacción",
+          "icon": "/images/Servicii/Partenere/centraleTermice.svg",
+          "subtitle": "Instalación y mantenimiento de calderas térmicas."
+        },
+        {
+          "title": "Consultoría Inmobiliaria",
+          "icon": "/images/Servicii/Partenere/consultantaImobiliare.svg",
+          "subtitle": "Asesoramiento profesional en proyectos inmobiliarios."
+        },
+        {
+          "title": "Diseño de Interiores",
+          "icon": "/images/Servicii/Partenere/designInterior.svg",
+          "subtitle": "Planificación estética y funcional de espacios."
+        },
+        {
+          "title": "Acabados de Lujo",
+          "icon": "/images/Servicii/Partenere/finisajeDeLux.svg",
+          "subtitle": "Materiales y acabados de alta gama para interiores."
+        },
+        {
+          "title": "Instalaciones Eléctricas",
+          "icon": "/images/Servicii/Partenere/instalatiiElectrice.svg",
+          "subtitle": "Sistemas eléctricos modernos y seguros."
+        },
+        {
+          "title": "Instalaciones Sanitarias",
+          "icon": "/images/Servicii/Partenere/instalatiiSanitare.svg",
+          "subtitle": "Instalación de redes de agua y saneamiento."
+        },
+        {
+          "title": "Instalaciones Térmicas",
+          "icon": "/images/Servicii/Partenere/instalatiiTermice.svg",
+          "subtitle": "Soluciones eficientes para calefacción y climatización."
+        },
+        {
+          "title": "Muebles a Medida",
+          "icon": "/images/Servicii/Partenere/mobilaLaComanda.svg",
+          "subtitle": "Mobiliario personalizado para cualquier espacio."
+        },
+        {
+          "title": "Instalación de Ventanas",
+          "icon": "/images/Servicii/Partenere/montajFerestre.svg",
+          "subtitle": "Montaje de ventanas de PVC, aluminio o madera."
+        },
+        {
+          "title": "Instalación de Puertas",
+          "icon": "/images/Servicii/Partenere/montajUsi.svg",
+          "subtitle": "Colocación profesional de puertas interiores y exteriores."
+        },
+        {
+          "title": "Servicios de Limpieza",
+          "icon": "/images/Servicii/Partenere/serviciiCuratenie.svg",
+          "subtitle": "Limpieza general y de mantenimiento."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+    "hero": {
+      "title": "Construimos hoy el futuro de tu hogar.",
+      "description": "Transformamos tus ideas en realidad con soluciones personalizadas.",
+      "cta": {
+        "enabled": true,
+        "text": "Solicita una oferta"
+      }
+    },
+  
+    "benefits": {
+      "title": "Ventajas de trabajar con nosotros",
+      "items": [
+        {
+          "icon": "star",
+          "title": "Alta calidad",
+          "description": "Utilizamos solo materiales premium y tecnologías modernas."
+        },
+        {
+          "icon": "clock",
+          "title": "Entrega rápida",
+          "description": "Cumplimos los plazos sin comprometer la calidad."
+        },
+        {
+          "icon": "shield",
+          "title": "Garantía extendida",
+          "description": "Disfruta de hasta 10 años de garantía en nuestros trabajos."
+        }
+      ]
+    },
+  
+    "vision": {
+      "title": "Nuestra visión del proyecto",
+      "image": "/images/vision.webp",
+      "description": "Este proyecto representa la visión de un joven, hecha realidad gracias a la pasión compartida de un padre y su hijo por las renovaciones. Nuestro objetivo es elevar nuestros proyectos a un nivel superior al del mercado actual, ofreciendo al mismo tiempo servicios de calidad a precios accesibles, para satisfacer las necesidades y expectativas de nuestros clientes de manera eficiente y satisfactoria."
+    },
+  
+    "design": {
+      "title": "Diseño sin límites.",
+      "photos": [
+        "/images/design1.webp",
+        "/images/design2.webp",
+        "/images/design3.webp"
+      ]
+    },
+  
+    "services": {
+    "title": "Nuestros Servicios",
+    "items": [
+      {
+        "title": "Instalación de Baldosas",
+        "photo": "/images/Services4.webp"
+      },
+      {
+        "title": "Pintura",
+        "photo": "/images/Services1.webp"
+      },
+      {
+        "title": "Instalación de Azulejos",
+        "photo": "/images/Services2.webp"
+      },
+      {
+        "title": "Vertido de Solera",
+        "photo": "/images/Services3.webp"
+      }
+    ]
+  },
+  
+    "outro": {
+      "logoEnabled": true,
+      "logoPath": "/images/logo-footer.svg",
+      "description": "En FRTrenovations nos dedicamos a realizar renovaciones de alta calidad, transformando los sueños de nuestros clientes en realidad. Con más de 25 años de experiencia, nuestro equipo de especialistas utiliza los mejores materiales y técnicas para garantizar resultados duraderos y estéticos. Lo que nos diferencia es nuestro compromiso con los clientes. Participamos activamente en cada etapa del proyecto, escuchando las necesidades y preferencias de cada uno. La comunicación abierta y el profesionalismo son esenciales para nosotros."
+    }
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "title": "Contacto",
+    "contacts": [
+      {
+        "icon": "phone",
+        "text": "Número de teléfono: +40 773 740 737"
+      },
+      {
+        "icon": "phone",
+        "text": "Número de teléfono: +40 786 175 944"
+      },
+      {
+        "icon": "email",
+        "text": "Dirección de correo: contact@frtrenovations.com"
+      }
+    ]
+  }
+  

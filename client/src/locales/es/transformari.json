@@ -1,0 +1,29 @@
+{
+  "title": "Transformaciones",
+  "beforeAfter": [
+    {
+      "before": "/images/before_1-2.webp",
+      "after": "/images/after_1-2.webp",
+      "title": "Baño",
+      "description": "Este baño fue renovado por completo, con un diseño moderno en tonos oscuros, elegantes y refinados. Los materiales elegidos crean un ambiente sofisticado, destacando las líneas simples y los acabados de calidad. El resultado es un espacio contemporáneo, con un aire íntimo y una estética urbana distintiva."
+    },
+    {
+      "before": "/images/before_2-2.webp",
+      "after": "/images/after_2-2.webp",
+      "title": "Piscina",
+      "description": "La piscina fue construida desde cero, comenzando con las excavaciones y continuando con la estructura, las instalaciones y el sistema de impermeabilización. El acabado final incluye baldosas de porcelana para exteriores, elegidas por su resistencia y aspecto elegante. Todo el proyecto se realizó con atención al detalle, cumpliendo con altos estándares de calidad y durabilidad."
+    },
+    {
+      "before": "/images/before_3-2.webp",
+      "after": "/images/after_3-2.webp",
+      "title": "Baño",
+      "description": "Este baño fue construido desde cero en un espacio amplio, diseñado para ofrecer confort y funcionalidad. Se integraron materiales de alta gama, sanitarios modernos y un sistema de iluminación LED que realza todo el diseño. El resultado es un espacio elegante y despejado, con un estilo contemporáneo y acabados de alta calidad."
+    },
+    {
+      "before": "/images/before_4-2.webp",
+      "after": "/images/after_4-2.webp",
+      "title": "Sala de estar",
+      "description": "La sala de estar fue completamente renovada, transformando un espacio cerrado en uno abierto y armonioso. Mediante la optimización de la distribución y la elección de acabados modernos, se buscó resaltar la luminosidad y el volumen. El resultado es un interior contemporáneo, con una atmósfera aireada y una clara sensación de amplitud."
+    }
+  ]
+}

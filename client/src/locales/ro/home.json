@@ -1,0 +1,69 @@
+{
+  "hero": {
+    "title": "Construim de azi viitorul casei tale.",
+    "description": "Transformăm ideile tale în realitate cu soluții personalizate.",
+    "cta": {
+      "enabled": true,
+      "text": "Cere ofertă"
+    }
+  },
+  "benefits": {
+    "title": "Avantajele colaborării cu noi",
+    "items": [
+      {
+        "icon": "star",
+        "title": "Servicii personalizate",
+        "description": "Crearea de planuri de design care să reflecte stilul si viziunea personala."
+      },
+      {
+        "icon": "clock",
+        "title": "Consultanta dedicata",
+        "description": "Asistență în alegerea materialelor, culorilor și finisajelor."
+      },
+      {
+        "icon": "shield",
+        "title": "Echipa specializata",
+        "description": "Experiență de peste 25 de ani in domeniul renovarilor."
+      }
+    ]
+  },
+  "vision": {
+    "title": "Viziunea asupra proiectului",
+    "image": "/images/vision.webp",
+    "description": "Acest proiect reprezintă viziunea unui tânăr, care este adusă la viață de pasiunea comună a unui tată și a fiului său pentru domeniul renovărilor. Scopul nostru este să elevăm proiectele noastre la un standard superior comparativ cu oferta existentă pe piață, oferind în același timp servicii calitative la un preț accesibil, astfel încât să răspundem nevoilor și așteptărilor clienților noștri într-un mod eficient și satisfăcător."
+  },
+  "design": {
+    "title": "Design fără limite.",
+    "photos": [
+      "/images/design1.webp",
+      "/images/design2.webp",
+      "/images/design3.webp"
+    ]
+  },
+  "services": {
+    "title": "Serviciile noastre",
+    "items": [
+      {
+        "title": "Montaj Gresie",
+        "photo": "/images/Services4.webp"
+      },
+      {
+        "title": "Zugraveli",
+        "photo": "/images/Services1.webp"
+      },
+      {
+        "title": "Montaj Faianta",
+        "photo": "/images/Services2.webp"
+      },
+      {
+        "title": "Turnare Sape",
+        "photo": "/images/Services3.webp"
+      }
+    ]
+  },
+  "outro": {
+    "logoEnabled": true,
+    "logoPath": "/images/logo-footer.svg",
+    "description": "La FRTrenovations ne dedicăm renovărilor de calitate superioară, transformând visele clienților noștri în realitate. Cu o experiență de peste 25 de ani, echipa noastră de specialiști folosește cele mai bune materiale și tehnici pentru a asigura rezultate durabile și estetice. Ceea ce ne diferențiază este angajamentul față de clienți. Ne implicăm activ în fiecare etapă a proiectului, ascultând nevoile și preferințele fiecărui client. Comunicarea deschisă și profesionalismul sunt esențiale pentru noi."
+  }
+}

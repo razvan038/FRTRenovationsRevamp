@@ -1,0 +1,75 @@
+{
+    "hero": {
+      "title": "Building your home's future today.",
+      "description": "We turn your ideas into reality with personalized solutions.",
+      "cta": {
+        "enabled": true,
+        "text": "Request an offer"
+      }
+    },
+  
+    "benefits": {
+      "title": "Why choose us",
+      "items": [
+        {
+          "icon": "star",
+          "title": "High quality",
+          "description": "We use only premium materials and modern technologies."
+        },
+        {
+          "icon": "clock",
+          "title": "Fast delivery",
+          "description": "We respect deadlines without compromising on quality."
+        },
+        {
+          "icon": "shield",
+          "title": "Extended warranty",
+          "description": "You benefit from up to 10 years warranty on our work."
+        }
+      ]
+    },
+  
+    "vision": {
+      "title": "Our project vision",
+      "image": "/images/vision.webp",
+      "description": "This project reflects the vision of a young entrepreneur, brought to life by the shared passion of a father and son for renovations. Our goal is to elevate our projects to a higher standard compared to the current market, while offering quality services at an affordable price — fulfilling our clients’ needs and expectations efficiently and satisfactorily."
+    },
+  
+    "design": {
+      "title": "Design without limits.",
+      "photos": [
+        "/images/design1.webp",
+        "/images/design2.webp",
+        "/images/design3.webp"
+      ]
+    },
+  
+    "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "title": "Tile Installation",
+        "photo": "/images/Services4.webp"
+      },
+      {
+        "title": "Painting",
+        "photo": "/images/Services1.webp"
+      },
+      {
+        "title": "Wall Tile Installation",
+        "photo": "/images/Services2.webp"
+      },
+      {
+        "title": "Screed Pouring",
+        "photo": "/images/Services3.webp"
+      }
+    ]
+  },
+  
+    "outro": {
+      "logoEnabled": true,
+      "logoPath": "/images/logo-footer.svg",
+      "description": "At FRTrenovations, we are dedicated to high-quality renovations, turning our clients' dreams into reality. With over 25 years of experience, our team of specialists uses the best materials and techniques to ensure lasting and aesthetic results. What sets us apart is our commitment to clients. We are actively involved in every stage of the project, listening to each client’s needs and preferences. Open communication and professionalism are essential to us."
+    }
+  }
+  

@@ -1,0 +1,132 @@
+{
+  "title": "Our Services",
+  "toggle": [
+    {
+      "id": "own-services",
+      "label": "Own Services",
+      "services": [
+        {
+          "title": "Plaster Application",
+          "icon": "/images/Servicii/Proprii/aplicareGlet.svg",
+          "subtitle": "Wall leveling and finishing before painting."
+        },
+        {
+          "title": "Tile Installation",
+          "icon": "/images/Servicii/Proprii/montajFaianta.svg",
+          "subtitle": "Installing ceramic tiles in bathrooms and kitchens."
+        },
+        {
+          "title": "Floor Tile Installation",
+          "icon": "/images/Servicii/Proprii/montajGresie.svg",
+          "subtitle": "Laying floor tiles for indoor or outdoor spaces."
+        },
+        {
+          "title": "Parquet Installation",
+          "icon": "/images/Servicii/Proprii/montajParchet.svg",
+          "subtitle": "Professional installation of wooden or laminate flooring."
+        },
+        {
+          "title": "Drywall Installation",
+          "icon": "/images/Servicii/Proprii/montajRigips.svg",
+          "subtitle": "Constructing walls and ceilings using drywall systems."
+        },
+        {
+          "title": "Wallpaper Installation",
+          "icon": "/images/Servicii/Proprii/montajTapet.svg",
+          "subtitle": "Decorative wallpaper application on interior walls."
+        },
+        {
+          "title": "Natural Stone",
+          "icon": "/images/Servicii/Proprii/piatraNaturala.svg",
+          "subtitle": "Stone cladding for aesthetic or functional purposes."
+        },
+        {
+          "title": "Stairs",
+          "icon": "/images/Servicii/Proprii/trepte.svg",
+          "subtitle": "Fabrication and installation of interior/exterior stairs."
+        },
+        {
+          "title": "Screed Pouring",
+          "icon": "/images/Servicii/Proprii/turnareSape.svg",
+          "subtitle": "Surface leveling using self-leveling screed."
+        },
+        {
+          "title": "Painting",
+          "icon": "/images/Servicii/Proprii/vopseluri.svg",
+          "subtitle": "Interior wall and ceiling painting in any color."
+        },
+        {
+          "title": "Masonry",
+          "icon": "/images/Servicii/Proprii/zidarie.svg",
+          "subtitle": "Brick and block construction for walls and structures."
+        },
+        {
+          "title": "Whitewashing",
+          "icon": "/images/Servicii/Proprii/zugraveli.svg",
+          "subtitle": "Decorative or protective wall coating."
+        }
+      ]
+    },
+    {
+      "id": "partner-services",
+      "label": "Partner Services",
+      "services": [
+        {
+          "title": "Heating Systems",
+          "icon": "/images/Servicii/Partenere/centraleTermice.svg",
+          "subtitle": "Installation and maintenance of thermal boilers."
+        },
+        {
+          "title": "Real Estate Consulting",
+          "icon": "/images/Servicii/Partenere/consultantaImobiliare.svg",
+          "subtitle": "Professional advice for real estate development."
+        },
+        {
+          "title": "Interior Design",
+          "icon": "/images/Servicii/Partenere/designInterior.svg",
+          "subtitle": "Aesthetic and functional interior space planning."
+        },
+        {
+          "title": "Luxury Finishes",
+          "icon": "/images/Servicii/Partenere/finisajeDeLux.svg",
+          "subtitle": "High-end materials and finishing for interiors."
+        },
+        {
+          "title": "Electrical Installations",
+          "icon": "/images/Servicii/Partenere/instalatiiElectrice.svg",
+          "subtitle": "Safe and modern electrical systems for buildings."
+        },
+        {
+          "title": "Plumbing Installations",
+          "icon": "/images/Servicii/Partenere/instalatiiSanitare.svg",
+          "subtitle": "Water supply and drainage systems installation."
+        },
+        {
+          "title": "Thermal Installations",
+          "icon": "/images/Servicii/Partenere/instalatiiTermice.svg",
+          "subtitle": "Efficient thermal distribution solutions."
+        },
+        {
+          "title": "Custom Furniture",
+          "icon": "/images/Servicii/Partenere/mobilaLaComanda.svg",
+          "subtitle": "Tailored furniture for any space and style."
+        },
+        {
+          "title": "Window Installation",
+          "icon": "/images/Servicii/Partenere/montajFerestre.svg",
+          "subtitle": "PVC, aluminum or wooden window mounting."
+        },
+        {
+          "title": "Door Installation",
+          "icon": "/images/Servicii/Partenere/montajUsi.svg",
+          "subtitle": "Interior and exterior door fitting services."
+        },
+        {
+          "title": "Cleaning Services",
+          "icon": "/images/Servicii/Partenere/serviciiCuratenie.svg",
+          "subtitle": "General and post-construction cleaning."
+        }
+      ]
+    }
+  ]
+}

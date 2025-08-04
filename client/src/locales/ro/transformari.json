@@ -1,0 +1,30 @@
+{
+    "title": "Transformări",
+    "beforeAfter": [
+      {
+        "before": "/images/before_1-2.webp",
+        "after": "/images/after_1-2.webp",
+        "title": "Baie",
+        "description": "Această baie a fost renovată integral, cu accent pe un design modern în nuanțe închise, elegante și rafinate. Materialele alese conferă un ambient sofisticat, punând în valoare liniile simple și finisajele de calitate. Rezultatul este un spațiu contemporan, cu un aer intim și o estetică urbană deosebită."
+      },
+      {
+        "before": "/images/before_2-2.webp",
+        "after": "/images/after_2-2.webp",
+        "title": "Piscina",
+        "description": "Piscina a fost executată integral, începând cu lucrările de săpătură și continuând cu realizarea structurii, a instalațiilor și a sistemului de hidroizolație. Finisajul final constă în placare cu gresie porțelanată de exterior, aleasă pentru rezistență și aspect elegant. Întregul proiect a fost realizat cu atenție la detalii, respectând standardele de calitate și durabilitate."
+      },
+      {
+        "before": "/images/before_3-2.webp",
+        "after": "/images/after_3-2.webp",
+        "title": "Baie",
+        "description": "Această baie a fost realizată de la zero, într-un spațiu generos, gândit pentru confort și funcționalitate. S-au integrat materiale premium, obiecte sanitare moderne și un sistem de iluminat LED care pune în valoare întregul design. Rezultatul este un spațiu elegant și aerisit, cu un aspect contemporan și finisaje de înaltă calitate."
+      },
+      {
+        "before": "/images/before_4-2.webp",
+        "after": "/images/after_4-2.webp",
+        "title": "Sufragerie",
+        "description": "Sufrageria a trecut printr-un proces complet de renovare, transformând un spațiu închis într-unul deschis și armonios. Prin optimizarea compartimentării și alegerea unor finisaje moderne, s-a urmărit accentuarea luminozității și a volumului. Rezultatul este un interior contemporan, cu o atmosferă aerisită și un plus evident de spațialitate."
+      }
+    ]
+  }
+  

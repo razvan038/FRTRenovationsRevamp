@@ -1,0 +1,132 @@
+{
+  "title": "Serviciile noastre",
+  "toggle": [
+    {
+      "id": "servicii-proprii",
+      "label": "Servicii proprii",
+      "services": [
+        {
+          "title": "Aplicare Glet",
+          "icon": "/images/Servicii/Proprii/aplicareGlet.svg",
+          "subtitle": "Nivelare și finisare a pereților înainte de vopsire."
+        },
+        {
+          "title": "Montaj Faianță",
+          "icon": "/images/Servicii/Proprii/montajFaianta.svg",
+          "subtitle": "Instalare de faianță pentru băi și bucătării."
+        },
+        {
+          "title": "Montaj Gresie",
+          "icon": "/images/Servicii/Proprii/montajGresie.svg",
+          "subtitle": "Placare cu gresie pentru pardoseli și pereți."
+        },
+        {
+          "title": "Montaj Parchet",
+          "icon": "/images/Servicii/Proprii/montajParchet.svg",
+          "subtitle": "Montare profesională de parchet laminat sau din lemn."
+        },
+        {
+          "title": "Montaj Rigips",
+          "icon": "/images/Servicii/Proprii/montajRigips.svg",
+          "subtitle": "Execuție pereți și tavane false din rigips."
+        },
+        {
+          "title": "Montaj Tapet",
+          "icon": "/images/Servicii/Proprii/montajTapet.svg",
+          "subtitle": "Aplicare decorativă de tapet pe pereți."
+        },
+        {
+          "title": "Piatra Naturală",
+          "icon": "/images/Servicii/Proprii/piatraNaturala.svg",
+          "subtitle": "Montaj de piatră naturală pentru decor sau funcționalitate."
+        },
+        {
+          "title": "Trepte",
+          "icon": "/images/Servicii/Proprii/trepte.svg",
+          "subtitle": "Execuție și montare de scări interioare/exterioare."
+        },
+        {
+          "title": "Turnare Șape",
+          "icon": "/images/Servicii/Proprii/turnareSape.svg",
+          "subtitle": "Pregătirea suprafeței prin turnare șape autonivelante."
+        },
+        {
+          "title": "Vopseli",
+          "icon": "/images/Servicii/Proprii/vopseluri.svg",
+          "subtitle": "Vopsirea pereților și tavanelor în diverse nuanțe."
+        },
+        {
+          "title": "Zidărie",
+          "icon": "/images/Servicii/Proprii/zidarie.svg",
+          "subtitle": "Lucrări de construcție cu cărămidă, BCA etc."
+        },
+        {
+          "title": "Zugrăveli",
+          "icon": "/images/Servicii/Proprii/zugraveli.svg",
+          "subtitle": "Finisaje decorative cu vopsea lavabilă sau clasică."
+        }
+      ]
+    },
+    {
+      "id": "servicii-parteneri",
+      "label": "Servicii parteneri",
+      "services": [
+        {
+          "title": "Centrale Termice",
+          "icon": "/images/Servicii/Partenere/centraleTermice.svg",
+          "subtitle": "Montare și mentenanță pentru centrale termice."
+        },
+        {
+          "title": "Consultanță Imobiliară",
+          "icon": "/images/Servicii/Partenere/consultantaImobiliare.svg",
+          "subtitle": "Sprijin profesional pentru proiecte imobiliare."
+        },
+        {
+          "title": "Design Interior",
+          "icon": "/images/Servicii/Partenere/designInterior.svg",
+          "subtitle": "Proiectare estetică și funcțională a spațiilor."
+        },
+        {
+          "title": "Finisaje de Lux",
+          "icon": "/images/Servicii/Partenere/finisajeDeLux.svg",
+          "subtitle": "Materiale și execuții premium pentru interioare."
+        },
+        {
+          "title": "Instalații Electrice",
+          "icon": "/images/Servicii/Partenere/instalatiiElectrice.svg",
+          "subtitle": "Rețele electrice sigure pentru locuințe și birouri."
+        },
+        {
+          "title": "Instalații Sanitare",
+          "icon": "/images/Servicii/Partenere/instalatiiSanitare.svg",
+          "subtitle": "Montaj și întreținere instalații apă-canal."
+        },
+        {
+          "title": "Instalații Termice",
+          "icon": "/images/Servicii/Partenere/instalatiiTermice.svg",
+          "subtitle": "Soluții de încălzire și distribuție termică."
+        },
+        {
+          "title": "Mobilă la Comandă",
+          "icon": "/images/Servicii/Partenere/mobilaLaComanda.svg",
+          "subtitle": "Mobilier personalizat pentru orice spațiu."
+        },
+        {
+          "title": "Montaj Ferestre",
+          "icon": "/images/Servicii/Partenere/montajFerestre.svg",
+          "subtitle": "Instalare de ferestre din PVC, aluminiu sau lemn."
+        },
+        {
+          "title": "Montaj Uși",
+          "icon": "/images/Servicii/Partenere/montajUsi.svg",
+          "subtitle": "Uși de interior și exterior montate profesional."
+        },
+        {
+          "title": "Servicii Curățenie",
+          "icon": "/images/Servicii/Partenere/serviciiCuratenie.svg",
+          "subtitle": "Curățenie generală sau de întreținere."
+        }
+      ]
+    }
+  ]
+}
