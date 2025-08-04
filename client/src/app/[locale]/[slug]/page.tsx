@@ -60,10 +60,10 @@ const contentMap = {
 };
 
 interface PageProps {
-  params: {
-    locale: keyof typeof contentMap;
+  params: Promise<{
+    locale: 'ro' | 'en' | 'es';
     slug: string;
-  };
+  }>;
 }
 
 interface ComponentProps {

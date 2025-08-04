@@ -2,7 +2,6 @@
 
 import { FC } from 'react';
 import StaggeredTextGSAP from '@/components/StaggeredTextGSAP';
-import TextReveal from '@/components/TextReveal';
 import Reveal from '@/components/Reveal';
 
 interface GalleryCategory {

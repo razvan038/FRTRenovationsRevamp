@@ -22,7 +22,7 @@ export async function generateStaticParams() {
 }
 
 interface PageProps {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }
 
 export default async function HomePage(props: PageProps) {
