@@ -3,7 +3,7 @@ import { locales, Locale } from '@/locales/i18n';
 import ro from '@/locales/ro/home.json';
 import en from '@/locales/en/home.json';
 import es from '@/locales/es/home.json';
-
+import { Sparkles } from 'lucide-react';
 import DesignTypesSection from '@/components/DesignTypeSection';
 import TextReveal from '@/components/TextReveal';
 import Reveal from '@/components/Reveal';
@@ -75,7 +75,7 @@ export default async function HomePage(props: PageProps) {
                 key={index}
                 className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-xl p-6 shadow-lg transition hover:scale-[1.015] duration-300"
               >
-                <div className="text-3xl mb-4">⭐</div>
+                <div className="text-3xl mb-4"><Sparkles /></div>
                 <StaggeredText
                   text={benefit.title}
                   className="text-lg font-display font-bold mb-2"
