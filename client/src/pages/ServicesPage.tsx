@@ -1,9 +1,11 @@
 'use client';
 
 import { FC, useState } from 'react';
+import { usePathname, useRouter } from 'next/navigation';
 import StaggeredTextGSAP from '@/components/StaggeredTextGSAP';
 import Reveal from '@/components/Reveal';
 import { Squares } from '@/components/Squares';
+import { serviceToGalleryMap } from '@/mappings/serviceToGallery';
 
 interface Service {
   title?: string;
@@ -24,29 +26,42 @@ interface Props {
   };
 }
 
-const ServiciiPage: FC<Props> = ({ messages }) => {
-  // Valori default
+
+const ServicesPage: FC<Props> = ({ messages }) => {
+  const router = useRouter();
+  const pathname = usePathname();
+  const language = pathname ? pathname.split("/")[1] : "ro";
+
   const safeMessages = {
     title: messages?.title || 'Serviciile Noastre',
     toggle: messages?.toggle || [],
   };
 
-  // Verificare dacă există tab-uri
   const hasTabs = safeMessages.toggle.length > 0;
-
-  // State management cu fallback
   const [activeTab, setActiveTab] = useState(
     hasTabs ? safeMessages.toggle[0].id : ''
   );
 
-  // Găsim serviciile active sau returnăm un array gol
   const activeServices = hasTabs
     ? safeMessages.toggle.find((t) => t.id === activeTab)?.services || []
     : [];
 
+    const galleryRouteByLang: Record<string, string> = {
+      ro: "galerie",
+      en: "gallery",
+      es: "galeria",
+    };
+    
+    const goToGallerySection = (serviceTitle: string) => {
+      const slug = serviceToGalleryMap[serviceTitle];
+      if (slug) {
+        const galleryPath = galleryRouteByLang[language] || "galerie";
+        router.push(`/${language}/${galleryPath}#${slug}`);
+      }
+    };
+
   return (
     <div className="relative overflow-hidden min-h-screen">
-      {/* Squares Background */}
       <div className="absolute inset-0 -z-10">
         <Squares
           direction="diagonal"
@@ -58,12 +73,10 @@ const ServiciiPage: FC<Props> = ({ messages }) => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-16 space-y-16">
-        {/* Page Title */}
         <h1 className="text-4xl font-bold text-center">
           <StaggeredTextGSAP text={safeMessages.title} />
         </h1>
 
-        {/* Toggle Tabs - Afișat doar dacă există tab-uri */}
         {hasTabs && (
           <div className="flex flex-wrap justify-center gap-2 md:gap-4">
             {safeMessages.toggle.map((tab) => (
@@ -83,14 +96,14 @@ const ServiciiPage: FC<Props> = ({ messages }) => {
           </div>
         )}
 
-        {/* Services Grid */}
         {activeServices.length > 0 ? (
           <Reveal>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
               {activeServices.map((service, index) => (
                 <div
                   key={`${activeTab}-${index}`}
-                  className="flex flex-col items-center text-center border border-neutral-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-xl transition-shadow bg-white dark:bg-neutral-900/50 hover:dark:bg-neutral-900"
+                  onClick={() => goToGallerySection(service.title || '')}
+                  className="flex flex-col items-center text-center border border-neutral-200 dark:border-neutral-800 rounded-2xl p-6 hover:shadow-xl transition-shadow bg-white dark:bg-neutral-900/50 hover:dark:bg-neutral-900 cursor-pointer"
                 >
                   <div className="w-16 h-16 mb-4 flex items-center justify-center">
                     {service.icon ? (
@@ -142,4 +155,4 @@ const ServiciiPage: FC<Props> = ({ messages }) => {
   );
 };
 
-export default ServiciiPage;
+export default ServicesPage;

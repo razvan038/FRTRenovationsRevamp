@@ -3,6 +3,7 @@
 import { FC } from 'react';
 import StaggeredTextGSAP from '@/components/StaggeredTextGSAP';
 import Reveal from '@/components/Reveal';
+import { slugify } from '@/utils/slugify';
 
 interface GalleryCategory {
   title?: string;
@@ -17,13 +18,11 @@ interface Props {
 }
 
 const GaleriePage: FC<Props> = ({ messages }) => {
-  // Valori default pentru cazul în care messages este undefined
   const safeMessages = {
     title: messages?.title || 'Galerie Foto',
     categories: messages?.categories || [],
   };
 
-  // Dacă nu există categorii, afișează un mesaj
   if (safeMessages.categories.length === 0) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-16 text-center">
@@ -34,27 +33,24 @@ const GaleriePage: FC<Props> = ({ messages }) => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-16 space-y-16">
-      {/* Page Title */}
       <h1 className="text-4xl font-bold text-center">
         <StaggeredTextGSAP text={safeMessages.title} />
       </h1>
 
-      {/* Categories */}
       {safeMessages.categories.map((category, index) => {
-        // Verifică dacă categoria există și are imagini
         const safeCategory = {
           title: category?.title || `Categoria ${index + 1}`,
           images: category?.images || [],
         };
 
+        const slug = slugify(safeCategory.title);
+
         return (
-          <section key={index} className="space-y-6">
-            {/* Category Title */}
+          <section key={index} id={slug} className="space-y-6 scroll-mt-20">
             <h2 className="text-2xl font-semibold">
               <StaggeredTextGSAP text={safeCategory.title} />
             </h2>
 
-            {/* Images Grid */}
             <Reveal>
               {safeCategory.images.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">

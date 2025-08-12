@@ -2,7 +2,7 @@
 
 import React from "react";
 import { ArrowRight } from "lucide-react";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import clsx from "clsx";
 
 interface InteractiveHoverButtonProps
@@ -15,19 +15,37 @@ const InteractiveHoverButton = React.forwardRef<
   InteractiveHoverButtonProps
 >(({ text, className, ...props }, ref) => {
   const pathname = usePathname();
+  const router = useRouter();
   const language = pathname ? pathname.split("/")[1] : undefined;
 
   const defaultText = {
-    ro: "Cere ofertă",
-    en: "Get quote",
-    es: "Pedir oferta",
+    ro: "Galerie",
+    en: "Gallery",
+    es: "Galeria",
   };
 
-  const buttonText = text || defaultText[language as "ro" | "en" | "es"] || "Cere ofertă";
+  const routes = {
+    ro: "/ro/galerie",
+    en: "/en/gallery",
+    es: "/es/galeria",
+  };
+
+  const buttonText =
+    text || defaultText[language as "ro" | "en" | "es"] || "Cere ofertă";
+
+  const handleClick = () => {
+    const target = routes[language as "ro" | "en" | "es"];
+    if (target) {
+      router.push(target);
+    } else {
+      router.push("/"); // fallback dacă nu e limbă detectată
+    }
+  };
 
   return (
     <button
       ref={ref}
+      onClick={handleClick}
       className={clsx(
         "group relative w-48 cursor-pointer overflow-hidden rounded-full mt-10 border p-2 text-center font-semibold transition-colors duration-300",
         "bg-[var(--primary)] border-[var(--primary)] text-white",
