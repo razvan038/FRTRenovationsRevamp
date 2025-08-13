@@ -2,6 +2,12 @@
     "title": "Transformări",
     "beforeAfter": [
       {
+        "before": "/images/before_0-2.webp",
+        "after": "/images/after_0-2.webp",
+        "title": "Baie",
+        "description": "Această baie a fost renovată integral, cu accent pe un design modern în nuanțe închise, elegante și rafinate. Materialele alese conferă un ambient sofisticat, punând în valoare liniile simple și finisajele de calitate. Rezultatul este un spațiu contemporan, cu un aer intim și o estetică urbană deosebită."
+      },
+      {
         "before": "/images/before_1-2.webp",
         "after": "/images/after_1-2.webp",
         "title": "Baie",

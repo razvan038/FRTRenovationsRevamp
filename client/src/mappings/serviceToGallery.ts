@@ -5,7 +5,7 @@ export const serviceToGalleryMap: Record<string, string> = {
     'Montaj Gresie': 'bai',
     'Montaj Parchet': 'renovari-interioare',
     'Montaj Rigips': 'renovari-interioare',
-    'Montaj Tapet': 'renovari-interioare',
+    'Montaj Tapet': 'renovari-interioare', 
     'Piatra Naturală': 'spatii-comerciale',
     'Trepte': 'spatii-comerciale',
     'Turnare Șape': 'procese',
